@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "459614831408",
+    "project_id": "pushnotifications-326cd",
+    "storage_bucket": "pushnotifications-326cd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:459614831408:android:e49e87caf89e80060b3ef5",
+        "android_client_info": {
+          "package_name": "com.mojaposta.ejposta"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOMNxat7lbfSmOeamTjYNbvAm0fkCgr0U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

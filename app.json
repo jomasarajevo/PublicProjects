@@ -1,0 +1,54 @@
+{
+  "expo": {
+    "name": "eJPosta",
+    "slug": "eJPosta",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/postabilten.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/ucitavanje.jpg",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.mojaposta.ejposta",
+      "versionCode": 12,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/postabilten.png",
+        "backgroundColor": "#ffffff",
+        "googleServicesFile": "./google-services.json"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-document-picker",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow $(PRODUCT_NAME) to access your camera"
+        }
+      ]
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "a9838bb7-4713-4e9b-8ac3-8b1e6d3c7474"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/a9838bb7-4713-4e9b-8ac3-8b1e6d3c7474"
+    }
+  }
+}
